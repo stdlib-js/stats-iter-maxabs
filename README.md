@@ -20,7 +20,7 @@ limitations under the License.
 
 # itermaxabs
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Compute the maximum absolute value of all [iterated][mdn-iterator-protocol] values.
 
@@ -124,9 +124,9 @@ console.log( 'maxabs: %d.', m );
 
 ## See Also
 
--   [`@stdlib/stats/iter/max`][@stdlib/stats/iter/max]: compute the maximum value of all iterated values.
--   [`@stdlib/stats/iter/minabs`][@stdlib/stats/iter/minabs]: compute the minimum absolute value of all iterated values.
--   [`@stdlib/stats/iter/mmaxabs`][@stdlib/stats/iter/mmaxabs]: create an iterator which iteratively computes a moving maximum absolute value.
+-   <span class="package-name">[`@stdlib/stats/iter/max`][@stdlib/stats/iter/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/minabs`][@stdlib/stats/iter/minabs]</span><span class="delimiter">: </span><span class="description">compute the minimum absolute value of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats/iter/mmaxabs`][@stdlib/stats/iter/mmaxabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving maximum absolute value.</span>
 
 </section>
 
@@ -177,8 +177,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-iter-maxabs/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-iter-maxabs?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/stats-iter-maxabs.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/stats-iter-maxabs/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
