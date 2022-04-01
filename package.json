@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/stats-iter-maxabs",
+  "version": "0.0.0",
+  "description": "Compute the maximum absolute value of all iterated values.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-iter-maxabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "statistics",
+    "stats",
+    "mathematics",
+    "math",
+    "maximum",
+    "max",
+    "absolute",
+    "value",
+    "abs",
+    "magnitude",
+    "range",
+    "extremes",
+    "domain",
+    "extent",
+    "iterator",
+    "iterable",
+    "iterate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
