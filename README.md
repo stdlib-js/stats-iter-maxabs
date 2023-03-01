@@ -132,9 +132,9 @@ console.log( 'maxabs: %d.', m );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/iter/max`][@stdlib/stats/iter/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value of all iterated values.</span>
--   <span class="package-name">[`@stdlib/stats/iter/minabs`][@stdlib/stats/iter/minabs]</span><span class="delimiter">: </span><span class="description">compute the minimum absolute value of all iterated values.</span>
--   <span class="package-name">[`@stdlib/stats/iter/mmaxabs`][@stdlib/stats/iter/mmaxabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving maximum absolute value.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/max`][@stdlib/stats/iter/max]</span><span class="delimiter">: </span><span class="description">compute the maximum value of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/minabs`][@stdlib/stats/iter/minabs]</span><span class="delimiter">: </span><span class="description">compute the minimum absolute value of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/mmaxabs`][@stdlib/stats/iter/mmaxabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving maximum absolute value.</span>
 
 </section>
 
