@@ -50,7 +50,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import itermaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-maxabs@deno/mod.js';
+import itermaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-maxabs@v0.1.0-deno/mod.js';
 ```
 
 #### itermaxabs( iterator )
@@ -92,7 +92,7 @@ var m = itermaxabs( arr );
 
 ```javascript
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import itermaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-maxabs@deno/mod.js';
+import itermaxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-maxabs@v0.1.0-deno/mod.js';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
