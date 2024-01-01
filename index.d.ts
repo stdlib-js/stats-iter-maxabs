@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,16 +16,20 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Iterator } from '@stdlib/types/iter';
 
 /**
-* Compute the maximum absolute value of all iterated values.
+* Computes the maximum absolute value of all iterated values.
 *
-* @module @stdlib/stats-iter-maxabs
+* @param iterator - input iterator
+* @returns maximum absolute value
 *
 * @example
-* var runif = require( '@stdlib/random-iter-uniform' );
-* var itermaxabs = require( '@stdlib/stats-iter-maxabs' );
+* var runif = require( `@stdlib/random/iter/uniform` );
 *
 * var rand = runif( -10.0, 10.0, {
 *     'iter': 100
@@ -34,12 +38,9 @@
 * var m = itermaxabs( rand );
 * // returns <number>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function itermaxabs( iterator: Iterator ): number | null;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = itermaxabs;
